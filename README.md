@@ -20,7 +20,6 @@ ai-med-langchain/
 │── visualization/
 │── README.md
 
-
 ## 🔒 Security
 採用 NVIDIA Protect Agent Strategy，確保系統安全與醫療數據合規。
 
