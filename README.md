@@ -1,25 +1,22 @@
-# AI-Powered Virtual Screening & Healthcare LangChain Agent System
+# ai-med-langchain
 
-## 🚀 Vision
-整合 NVIDIA BioNeMo NIMs 與 LangChain/LangGraph 建立 AI 驅動的
-藥物發現與智慧醫療代理平台。
+🚀 Professional LangChain workflows for **Life Sciences & Healthcare**.  
+This project demonstrates:
 
-## 🧩 Features
-- 蛋白質結構預測 (OpenFold2 NIM)
-- 小分子生成 (GenMol NIM)
-- Docking 模擬 (DiffDock NIM)
-- LangChain Agentic Workflow
-- 安全防護模組 (Prompt Injection, HIPAA, GDPR)
+- FAISS-based biomedical vector search
+- Docking & drug discovery pipelines
+- Patient assessment & structured medical outputs
+- Conversational memory for clinical decision support
+- Bioinformatics custom tools (e.g., sequence analysis, dilution calculator)
 
-## 📂 Project Structure
-ai-med-langchain/
-│── main.py
-│── services/
-│── agent/
-│── security/
-│── visualization/
-│── README.md
+## Setup
+```bash
+bash setup_ai_med_langchain.sh
+pip install -r requirements.txt
+```
 
-## 🔒 Security
-採用 NVIDIA Protect Agent Strategy，確保系統安全與醫療數據合規。
-
+## Run Workflows
+- `python workflows/docking_search.py`
+- `python workflows/patient_assessment.py`
+- `python workflows/clinical_memory.py`
+- `python workflows/bioinformatics_tools.py`
