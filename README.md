@@ -1,6 +1,6 @@
 # ai-med-langchain
 
-🚀 Professional LangChain workflows for **Life Sciences & Healthcare**.  
+##🚀 Professional LangChain workflows for **Life Sciences & Healthcare**.  
 This project demonstrates:
 
 - FAISS-based biomedical vector search
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 - `python workflows/bioinformatics_tools.py`
 
 
-🚀 Project: AI-Powered Virtual Screening & Healthcare LangChain Agent System
+##🚀 Project: AI-Powered Virtual Screening & Healthcare LangChain Agent System
 
 1. Vision & Market Impact
 
@@ -86,19 +86,19 @@ ai-med-langchain/
 │── README.md               # 投資人與開發者文件
 
 4. Example Workflow (Engineer SOP)
-# === Example: SARS-CoV-2 主蛋白質流程 ===
+ === Example: SARS-CoV-2 主蛋白質流程 ===
 sequence = "SGFRKMAFPSGKVEGCMVQVTC..."  # 蛋白質序列
 
-# Step 1: 蛋白質折疊 (NIM API calling)
+ Step 1: 蛋白質折疊 (NIM API calling)
 protein_structure = fold_protein(sequence)
 
-# Step 2: 小分子生成 (NIM API calling)
+ Step 2: 小分子生成 (NIM API calling)
 candidates = generate_molecules("C12OC3C(O)C1O.C3O.[*{25-25}]")
 
-# Step 3: Docking (NIM API calling)
+ Step 3: Docking (NIM API calling)
 docking_results = docking(protein_structure, "\n".join([c['smiles'] for c in candidates]))
 
-# Step 4: LangChain Agent 整合
+ Step 4: LangChain Agent 整合
 agent.run("為 SARS-CoV-2 主蛋白質 生成並對接候選分子")
 
 5. Value Proposition for VC
